@@ -10,10 +10,10 @@ while(start<end){
 if(sum<target){
 	start++;
 }
-else if(sum>target){
+else {
 	end--;
 }
-else if(Math.abs(sum-target)<Math.abs(ans-target)){
+if(Math.abs(sum-target)<Math.abs(ans-target)){
 	ans=sum;
 }
 	
